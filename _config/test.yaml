@@ -1,0 +1,32 @@
+# >> Master parameters
+#runID: your run description
+#simTime : 120 # duration of a single round
+#sequentialSimRounds : 20 # number of eval runs if made sequentially
+#arenaWidth : 20
+#arenaHeight : 20
+#beeCountPerArena : 20
+#beeLength : 0.7
+#beeWidth : 0.7
+#beeSpeed : 1
+#beeTurn : 50
+#senseRange : 0.8
+#minX : 0 # bot spawn min x
+#maxX : 20 # bot spawn max x
+#minY : 0 # bot spawn min y
+#maxY : 20 # bot spawn max y
+#communicationRange : 7
+#nCellsX : 10
+#nCellsY : 20
+#taskDifficulty : 0.289
+#dominatingColor : Black
+#correctOpinionInitializationPercentage : 0.5
+#decisionRule : VoterModel # {VoterModel, MajorityRule, MinimizeSurprize}
+#fitnessCalc : AverageFitness # {AverageFitness, MinFitness}
+#penalizeFitness: false # {true, false}
+#randomSeed : 42
+
+# >> Evolution handler parameters
+#evoPopulationSize : 1
+#evoNGenerations : 2
+#evoRunsPerFitnessEval : 3
+#evoMutationProb : 0.1

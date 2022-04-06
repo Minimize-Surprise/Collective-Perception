@@ -1,0 +1,6 @@
+
+nParallelArenas : 4
+simTime : 120
+sequentialSimRounds : 48 ## here is a comment
+correctOpinionInitializationPercentage : 0.5
+dominatingColor : Black
